@@ -6,6 +6,7 @@ calendar执行cleaner-fix过程报错，直接采用kooritea发布的版本，�
 国内包miui_CAS_V12.0.14.0各APP位置及操作：
 
 需要恢复添加：使用extract.sh
+
 需要本地化：使用cleaner-fix.sh
 
 - 需要恢复添加：\system\app\DeskClock
@@ -14,12 +15,14 @@ calendar执行cleaner-fix过程报错，直接采用kooritea发布的版本，�
 - 需要本地化：\system\app\NotificationCenter
 - 需要恢复添加：\system\app\TSMClient
 - 需要恢复添加：\system\app\UPTsmService
-
+ 
+ 
 - 需要本地化：\system\priv-app\AuthManager
 - 需要本地化：\system\priv-app\Calendar
 - 需要本地化：\system\priv-app\Mms
 - 需要恢复添加：\system\priv-app\PersonalAssistant
 - 需要本地化：\system\priv-app\YellowPage
+ 
  
 - 需要本地化：\system\data-app\Weather
 
