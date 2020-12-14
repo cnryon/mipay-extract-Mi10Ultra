@@ -28,11 +28,11 @@ case $key in
 esac
 done
 
-mipay_apps="Calendar"
+# mipay_apps="Calendar"
 private_apps="priv-app/Mms app/NotificationCenter priv-app/YellowPage priv-app/AuthManager"
 [ -z "$EXTRA_PRIV" ] || private_apps="$private_apps $EXTRA_PRIV"
 
-# mipay_apps=""
+mipay_apps=""
 # private_apps=""
 
 base_dir=$PWD

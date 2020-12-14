@@ -32,9 +32,14 @@ description=xiaomieufix-$model-$ver
 EOF
 
 ####
+    echo "---cleaner-fix begin: app localization (from eu to cn)---"
     ./cleaner-fix.sh --clock
     cp -R ./miui-$model-$ver/deodex/system ./eufix-base/
-    ./extract.sh
+    echo "---cleaner-fix done---"
+    
+    echo "---extract begin: (restore deleted app)---"
+    ./extract.sh --appvault
+    echo "---extract done---"
     cp -R ./miui-$model-$ver/deodex/system ./eufix-base/
     cp -R ./PersonalAssistant ./eufix-base/system/priv-app/
     cd eufix-base/
